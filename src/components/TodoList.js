@@ -7,6 +7,9 @@ const TodoListBlock = styled.div`
   flex: 1;
   padding: 30px 0 48px;
   overflow-y: auto;
+  @media only screen and (max-width: 525px) {
+    padding: 15px 0 35px;
+  }
 `
 
 function TodoList() {

@@ -10,6 +10,11 @@ const TodoTemplateBlock = styled.div`
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0, 0, 0, .04);
+  @media only screen and (max-width: 525px) {
+    flex-direction: normal;
+    width: 100%;
+    height: 95vh;
+  }
 `
 
 function TodoTemplate({ children }) {

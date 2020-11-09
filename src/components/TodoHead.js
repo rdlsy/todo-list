@@ -32,7 +32,17 @@ const TodoHeadBlock = styled.div`
     font-size: 17px;
     font-weight: bold;
   }
-`
+  @media only screen and (max-width: 525px) {
+    padding: 30px 20px 20px;
+    height: 108px;
+    h1 {
+      font-size: 22px;
+    }
+    .task-left {
+      font-size: 15px;
+    }
+  }
+`;
 
 function TodoHead() {
   const todos = useTodoState();

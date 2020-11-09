@@ -37,6 +37,12 @@ const CircleButton = styled.button`
     }
     transform: rotate(45deg);
   `}
+  @media only screen and (max-width: 525px) {
+    top: 85px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
 `;
 
 const InsertFormPositioner = styled.div`
@@ -54,6 +60,10 @@ const InsertForm = styled.form`
   border-top-left-radius: 10px; 
   border-top-right-radius: 10px;
   box-sizing: border-box;
+  @media only screen and (max-width: 525px) {
+    padding: 30px 20px 20px;
+    height: 108px;
+  }
 `;
 
 const Input = styled.input`

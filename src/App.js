@@ -12,8 +12,10 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5% 3%;
     height: 100vh;
     background: #5a4eeb;
+    box-sizing: border-box;
     &:before {
       content: '';
       position: absolute;
@@ -31,7 +33,11 @@ const GlobalStyle = createGlobalStyle`
       transform: translateX(-50%);
       fill: #ff616f;
     }
+    @media only screen and (max-width: 525px) {
+      display: block;
+    }
   }
+  
 `
 
 function App() {

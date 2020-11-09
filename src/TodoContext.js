@@ -31,6 +31,8 @@ function todoReducer(state, action) {
       return state.map(todo => todo.id === action.id ? { ...todo, done: !todo.done } : todo);
     case 'REMOVE':
       return state.filter(todo => todo.id !== action.id);
+    case 'UPDATE':
+      return state.map(todo => todo.id === action.id ? { ...todo, text: action.text } : todo);
     default:
       throw new Error(`Unhandled action type: ${action.type}`);  
   }
