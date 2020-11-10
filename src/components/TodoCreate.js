@@ -23,7 +23,7 @@ const CircleButton = styled.button`
   -webkit-border-radius: 50%;
   border: none;
   outline: none;
-  font-size: 60px;
+  font-size: 30px;
   color: #fff;
   z-index: 5;
   cursor: pointer;
