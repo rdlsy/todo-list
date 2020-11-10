@@ -43,6 +43,7 @@ const CircleButton = styled.button`
     right: 20px;
     width: 45px;
     height: 45px;
+    font-size: 20px;
   }
 `;
 
