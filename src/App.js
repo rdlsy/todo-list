@@ -36,6 +36,10 @@ const GlobalStyle = createGlobalStyle`
     @media only screen and (max-width: 525px) {
       display: block;
     }
+    @media only screen and (orientation: landscape) {
+      display: block;
+      height: auto;
+    }
   }
   
 `

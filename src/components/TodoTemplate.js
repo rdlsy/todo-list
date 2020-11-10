@@ -15,7 +15,10 @@ const TodoTemplateBlock = styled.div`
     width: 100%;
     height: 95vh;
   }
-`
+  @media only screen and (orientation: landscape) {
+    margin: 0 auto;
+  }
+`;
 
 function TodoTemplate({ children }) {
   return <TodoTemplateBlock>{children}</TodoTemplateBlock>;
