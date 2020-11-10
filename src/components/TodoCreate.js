@@ -19,7 +19,7 @@ const CircleButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 50%;
   border: none;
   outline: none;
   font-size: 60px;
