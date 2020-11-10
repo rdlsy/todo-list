@@ -36,13 +36,12 @@ const GlobalStyle = createGlobalStyle`
     @media only screen and (max-width: 525px) {
       display: block;
     }
-    @media only screen and (orientation: landscape) {
+    @media (max-width: 800px) and (orientation: landscape) {
       display: block;
       height: auto;
     }
   }
-  
-`
+`;
 
 function App() {
   return (
