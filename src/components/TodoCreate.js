@@ -14,6 +14,7 @@ const CircleButton = styled.button`
   position: absolute;
   right: 35px;
   top: 96px;
+  padding: 0;
   width: 60px;
   height: 60px;
   display: flex;
@@ -43,7 +44,6 @@ const CircleButton = styled.button`
     right: 20px;
     width: 45px;
     height: 45px;
-    font-size: 1rem;
   }
 `;
 
