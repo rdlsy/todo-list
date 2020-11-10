@@ -28,6 +28,9 @@ const CheckBox = styled.div`
   ${props => props.done && css`
     color: #ff5768;
   `}
+  @media only screen and (max-width: 525px) {
+    margin-right: 5px;
+  }
 `;
 
 const Text = styled.div`
@@ -62,7 +65,7 @@ const Modify = styled.button`
   color: #5c4ff0;
   font-size: 24px;
   cursor: pointer;
-  padding: 0 0 0 5px;
+  padding: 0 5px;
   background: none;
   border: none;
   outline: none;
